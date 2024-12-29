@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>turorial</title>
+    <style>
+        .alert{
+            color: aqua;
+            background :green;
+            padding: 5px;
+
+        }
+
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1 id ="heading"></h1>
+        <p>how are you?</p>
+    </header>
+        <script>
+            let div = document.createElement('div');
+            div.id ="paragraph"
+            div.className ="alert";
+            div.innerHTML ="<p>congrats! you have created a div. </p>";
+            document.body.append(div);
+            let heading=document.getElementById("heading");
+            heading.innerHTML='&#128511';
+            document.querySelector('header p').innerHTML ="<strong>good job!</strong>";
+        </script>
+</body>
+</html>
